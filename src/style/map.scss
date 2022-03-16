@@ -1,0 +1,43 @@
+.maping{
+    display: grid;
+    background-color: #ecd3cb;
+}
+.maping_contact {
+    margin: 0 auto;
+    width: 1800px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google {
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.mailTel {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    a{
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+.mobile {
+    display: flex;
+    gap: 20px;
+}
+.mailTel {
+    display: flex;
+    gap: 20px;
+}
+.callmail {
+    display: flex;
+    flex-direction: column;
+}

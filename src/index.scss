@@ -1,0 +1,166 @@
+@import url(/src/bg.scss);
+@import url(/src/card.scss);
+@import url(/src/style/map.scss);
+@import url(/src/style/mailer.scss);
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+a {
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 31px;
+	text-transform: uppercase;
+}
+
+.conatiner {
+	display: flex;
+}
+.wrapper {
+background-color: #ecd3cb;
+padding: 0;
+margin: 0;
+}
+
+
+
+.header {
+margin: 0 auto;
+max-width: 1800px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 0px;
+box-shadow: 0px 15px 8px -15px rgb(89, 89, 89);
+
+}
+
+.left {
+	display: flex;
+	align-items: center;
+
+img {
+	width: 70px;
+	margin-right: 40px;
+}}
+
+.button {
+	border: none;
+	background-color: black;
+	padding: 16px 25px;
+	font-size: 16px;
+	cursor: pointer;
+	display: block;
+	transition: 0.4s;
+	&:hover {
+		background-color: rgb(87, 87, 87);
+	}
+	a {
+		color: #fff;
+		font-weight: 600;
+	}
+	
+}
+.header__left__title-link {
+	color: #6b6b6b;
+	&:hover {
+		color: #000;
+
+	}
+}
+.nav__left__bar {
+	padding: 0;
+	
+}
+
+@media screen and (max-width: 600px) {
+	.nav__left__bar{
+	  flex-direction: column;
+	}
+ }
+
+
+.nav {
+	margin: 0 auto;
+	max-width: 1800px;
+	padding: 15px 0;
+}
+
+.nav_items {
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+}
+
+@media screen and (max-width: 600px) {
+	.nav_items {
+	  flex-direction: column;
+	  display: flex;
+
+	}
+ }
+
+ @media screen and (max-width: 600px) {
+	.header {
+	  flex-direction: column;
+	}
+ }
+
+.nav__left {
+display: flex;
+ul {
+	display: flex;
+	gap: 2rem;
+	li {
+		list-style-type: none;
+       a {
+			color: black;
+			font-weight: 600;
+			font-size: 18px;
+			transition: 0.4s;
+			&:hover {
+				color: #6b6b6b;
+			}
+		 }
+	}
+}
+
+}
+
+.nav__right {
+	display: flex;
+	gap: 2rem;
+}
+
+.icon {
+	cursor: pointer;
+	&img {
+		transition: 0.4s;
+		
+		&:hover {
+			box-shadow: 10px 10px lightblue;
+			
+		}
+	}
+	
+}
+

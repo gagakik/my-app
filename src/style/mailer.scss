@@ -1,0 +1,27 @@
+
+  label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  input {
+    display: block;
+    min-width: 300px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  textarea {
+    max-width: 300px;
+    min-height: 150px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
